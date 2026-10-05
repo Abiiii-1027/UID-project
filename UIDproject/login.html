@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cruise Booking System - Login</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Outfit:wght@400;600&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top"><div class="wrap bar"><a class="brand" href="index.html">&#128674; Cruise<span>Booking</span></a><button class="burger" aria-label="Menu">&#9776;</button><nav class="links"><a href="index.html">Home</a><a href="search.html">Search Cruises</a><a href="overview.html">Cruise Overview</a><a href="cabins.html">Cabin Selection</a><a href="themed.html">Themed Holidays</a><a href="help.html">Help Center</a><div class="dd"><button>More &#9662;</button><div class="dd-menu"><a href="dashboard.html">Dashboard</a><a href="itinerary.html">Itinerary Planner</a><a href="activity.html">Activity Selection</a><a href="food.html">Food Options</a><a href="review.html">Reviews</a><a href="rating.html">Cruise Rating</a><a href="payment.html">Payment</a><a href="contact.html">Contact Us</a></div></div><a class="btn ghost" href="login.html">Login</a><a class="btn" href="register.html">Register</a></nav></div></header>
+<main>
+
+<section class="auth">
+<div class="auth-art"><img src="images/night.svg" alt=""><div><h2>Welcome aboard</h2><p>Manage bookings, itineraries and payments from one dashboard.</p></div></div>
+<div class="auth-box"><h1>Login</h1><p>Choose how you use Cruise Booking.</p>
+<div class="tabs"><button type="button" class="on" data-tab="customer">Customer</button><button type="button" data-tab="agent">Travel agent</button></div>
+<div class="pane on" id="customer"><form action="dashboard.html">
+<div class="f"><label>Email or mobile number</label><input type="text" name="username" required></div>
+<div class="f"><label>Password</label><input type="password" name="password" required></div>
+<div class="f"><label><input type="checkbox" name="remember">Remember me</label></div>
+<input type="submit" value="Login as customer"></form>
+<p>New here? <a href="register.html">Create a customer account</a></p></div>
+<div class="pane" id="agent"><form action="dashboard.html">
+<div class="f"><label>Agent ID</label><input type="text" name="agent_id" required></div>
+<div class="f"><label>Agency code</label><input type="text" name="agency_code" required></div>
+<div class="f"><label>Password</label><input type="password" name="password" required></div>
+<input type="submit" value="Login as agent"></form>
+<p>Agent accounts are verified by our partner team. <a href="contact.html">Contact us</a> to apply.</p></div>
+<p><a href="help.html">Forgot password?</a></p></div></section>
+
+</main>
+<footer><div class="wrap"><div class="fcols">
+<div><h4>Cruise Booking System</h4><p>Search, plan and book cruise holidays from Mumbai, Goa, Kochi and Chennai to the Arabian Sea, the Caribbean and the Mediterranean.</p></div>
+<div><h4>Explore</h4><a href="search.html">Search Cruises</a><a href="themed.html">Themed Holidays</a><a href="cabins.html">Cabins</a><a href="food.html">Food Options</a></div>
+<div><h4>Support</h4><a href="help.html">Help Center</a><a href="review.html">Reviews</a><a href="payment.html">Payment</a><a href="login.html#agent">Agent Login</a></div>
+<div><h4>Contact</h4><p>support@cruisebooking.com</p><p>+91-9876543210</p><p>Marine Drive, Mumbai, India</p></div>
+</div><div class="legal">Cruise Booking System | Group 3 Mini Project</div></div></footer>
+<script src="main.js"></script>
+</body>
+</html>

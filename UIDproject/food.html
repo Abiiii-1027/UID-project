@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cruise Booking System - Food Options</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Outfit:wght@400;600&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top"><div class="wrap bar"><a class="brand" href="index.html">&#128674; Cruise<span>Booking</span></a><button class="burger" aria-label="Menu">&#9776;</button><nav class="links"><a href="index.html">Home</a><a href="search.html">Search Cruises</a><a href="overview.html">Cruise Overview</a><a href="cabins.html">Cabin Selection</a><a href="themed.html">Themed Holidays</a><a href="help.html">Help Center</a><div class="dd"><button>More &#9662;</button><div class="dd-menu"><a href="dashboard.html">Dashboard</a><a href="itinerary.html">Itinerary Planner</a><a href="activity.html">Activity Selection</a><a href="food.html" class="on">Food Options</a><a href="review.html">Reviews</a><a href="rating.html">Cruise Rating</a><a href="payment.html">Payment</a><a href="contact.html">Contact Us</a></div></div><a class="btn ghost" href="login.html">Login</a><a class="btn" href="register.html">Register</a></nav></div></header>
+<main>
+<section class="hero sm"><img src="images/food.svg" alt=""><div class="wrap"><h1>Dine your way</h1><p>Tell us what you eat and when, and we will set the table.</p></div></section><div class="wrap page">
+<h2>Food Options</h2>
+<form>
+    <label>Meal Preference:</label><br>
+    <input type="radio" name="meal" value="veg"> Vegetarian<br>
+    <input type="radio" name="meal" value="nonveg"> Non-Vegetarian<br>
+    <input type="radio" name="meal" value="vegan"> Vegan<br>
+    <input type="radio" name="meal" value="jain"> Jain Food<br><br>
+
+    <label>Cuisine Preference:</label>
+    <select name="cuisine">
+        <option>Indian</option>
+        <option>Continental</option>
+        <option>Chinese</option>
+        <option>Italian</option>
+        <option>Mexican</option>
+    </select><br><br>
+
+    <label>Dietary Restrictions:</label><br>
+    <input type="checkbox" name="allergy1"> Nut Allergy<br>
+    <input type="checkbox" name="allergy2"> Gluten Free<br>
+    <input type="checkbox" name="allergy3"> Lactose Free<br><br>
+
+    <label>Preferred Dining Time:</label>
+    <select name="dining_time">
+        <option>Early Sitting (6:00 PM)</option>
+        <option>Late Sitting (8:30 PM)</option>
+    </select><br><br>
+
+    <input type="submit" value="Save Food Preference">
+</form>
+
+<h3>Sample Menu</h3>
+<table border="1" cellpadding="5">
+    <tr>
+        <th>Meal</th>
+        <th>Item</th>
+        <th>Type</th>
+    </tr>
+    <tr>
+        <td>Breakfast</td>
+        <td>Idli & Sambar</td>
+        <td>Vegetarian</td>
+    </tr>
+    <tr>
+        <td>Lunch</td>
+        <td>Grilled Chicken</td>
+        <td>Non-Vegetarian</td>
+    </tr>
+    <tr>
+        <td>Dinner</td>
+        <td>Pasta Alfredo</td>
+        <td>Vegetarian</td>
+    </tr>
+</table>
+<h3>Where you will eat</h3><div class="grid"><article class="card"><img src="images/food.svg" alt="Live kitchens"><div><h3>Live kitchens</h3><p>Chefs cook Indian, Continental, Chinese, Italian and Mexican dishes in front of you.</p></div></article><article class="card"><img src="images/pool.svg" alt="Sunset deck dining"><div><h3>Sunset deck dining</h3><p>Grills and light bites served by the pool as the sun goes down.</p></div></article><article class="card"><img src="images/night.svg" alt="Late-night bites"><div><h3>Late-night bites</h3><p>Snacks, coffee and desserts after the show.</p></div></article></div></div>
+</main>
+<footer><div class="wrap"><div class="fcols">
+<div><h4>Cruise Booking System</h4><p>Search, plan and book cruise holidays from Mumbai, Goa, Kochi and Chennai to the Arabian Sea, the Caribbean and the Mediterranean.</p></div>
+<div><h4>Explore</h4><a href="search.html">Search Cruises</a><a href="themed.html">Themed Holidays</a><a href="cabins.html">Cabins</a><a href="food.html">Food Options</a></div>
+<div><h4>Support</h4><a href="help.html">Help Center</a><a href="review.html">Reviews</a><a href="payment.html">Payment</a><a href="login.html#agent">Agent Login</a></div>
+<div><h4>Contact</h4><p>support@cruisebooking.com</p><p>+91-9876543210</p><p>Marine Drive, Mumbai, India</p></div>
+</div><div class="legal">Cruise Booking System | Group 3 Mini Project</div></div></footer>
+<script src="main.js"></script>
+</body>
+</html>

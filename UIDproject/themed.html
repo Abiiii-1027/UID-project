@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cruise Booking System - Themed Holidays</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Outfit:wght@400;600&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top"><div class="wrap bar"><a class="brand" href="index.html">&#128674; Cruise<span>Booking</span></a><button class="burger" aria-label="Menu">&#9776;</button><nav class="links"><a href="index.html">Home</a><a href="search.html">Search Cruises</a><a href="overview.html">Cruise Overview</a><a href="cabins.html">Cabin Selection</a><a href="themed.html" class="on">Themed Holidays</a><a href="help.html">Help Center</a><div class="dd"><button>More &#9662;</button><div class="dd-menu"><a href="dashboard.html">Dashboard</a><a href="itinerary.html">Itinerary Planner</a><a href="activity.html">Activity Selection</a><a href="food.html">Food Options</a><a href="review.html">Reviews</a><a href="rating.html">Cruise Rating</a><a href="payment.html">Payment</a><a href="contact.html">Contact Us</a></div></div><a class="btn ghost" href="login.html">Login</a><a class="btn" href="register.html">Register</a></nav></div></header>
+<main>
+<section class="hero sm"><img src="images/caribbean.svg" alt=""><div class="wrap"><h1>Holidays built around you</h1><p>Honeymoon, family, adventure, wellness and more.</p></div></section><div class="wrap page">
+<h2>Themed Holiday Planner</h2>
+<form>
+    <label>Choose a Theme:</label><br>
+    <input type="radio" name="theme" value="honeymoon"> Honeymoon Special<br>
+    <input type="radio" name="theme" value="family"> Family Vacation<br>
+    <input type="radio" name="theme" value="adventure"> Adventure Trip<br>
+    <input type="radio" name="theme" value="wellness"> Wellness Retreat<br>
+    <input type="radio" name="theme" value="solo"> Solo Traveller<br>
+    <input type="radio" name="theme" value="senior"> Senior Citizen Special<br><br>
+
+    <label>Preferred Month:</label>
+    <select name="month">
+        <option>January</option>
+        <option>April</option>
+        <option>July</option>
+        <option>October</option>
+        <option>December</option>
+    </select><br><br>
+
+    <input type="submit" value="Plan My Holiday">
+</form>
+
+<h3>Popular Themed Packages</h3>
+<table border="1" cellpadding="5">
+    <tr>
+        <th>Package Name</th>
+        <th>Theme</th>
+        <th>Includes</th>
+    </tr>
+    <tr>
+        <td>Love at Sea</td>
+        <td>Honeymoon Special</td>
+        <td>Candlelight Dinner, Couple Spa, Balcony Cabin</td>
+    </tr>
+    <tr>
+        <td>Family Fun Cruise</td>
+        <td>Family Vacation</td>
+        <td>Kids Club, Family Suite, Game Nights</td>
+    </tr>
+    <tr>
+        <td>Thrill Seeker</td>
+        <td>Adventure Trip</td>
+        <td>Snorkeling, Water Sports, Island Trekking</td>
+    </tr>
+</table>
+<h3>Themes at a glance</h3><div class="grid"><article class="card"><img src="images/pool.svg" alt="Honeymoon Special"><div><h3>Honeymoon Special</h3><p>Private dinners, couple spa and a balcony cabin.</p><span class="tag">Candlelight Dinner</span><span class="tag">Couple Spa</span></div></article><article class="card"><img src="images/caribbean.svg" alt="Family Vacation"><div><h3>Family Vacation</h3><p>Kids club, family suites and evening games.</p><span class="tag">Kids Club</span><span class="tag">Game Nights</span></div></article><article class="card"><img src="images/lakshadweep.svg" alt="Adventure Trip"><div><h3>Adventure Trip</h3><p>Snorkelling, water sports and island trekking.</p><span class="tag">Snorkeling</span><span class="tag">Trekking</span></div></article></div></div>
+</main>
+<footer><div class="wrap"><div class="fcols">
+<div><h4>Cruise Booking System</h4><p>Search, plan and book cruise holidays from Mumbai, Goa, Kochi and Chennai to the Arabian Sea, the Caribbean and the Mediterranean.</p></div>
+<div><h4>Explore</h4><a href="search.html">Search Cruises</a><a href="themed.html">Themed Holidays</a><a href="cabins.html">Cabins</a><a href="food.html">Food Options</a></div>
+<div><h4>Support</h4><a href="help.html">Help Center</a><a href="review.html">Reviews</a><a href="payment.html">Payment</a><a href="login.html#agent">Agent Login</a></div>
+<div><h4>Contact</h4><p>support@cruisebooking.com</p><p>+91-9876543210</p><p>Marine Drive, Mumbai, India</p></div>
+</div><div class="legal">Cruise Booking System | Group 3 Mini Project</div></div></footer>
+<script src="main.js"></script>
+</body>
+</html>

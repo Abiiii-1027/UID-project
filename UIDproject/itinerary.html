@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cruise Booking System - Itinerary Planner</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Outfit:wght@400;600&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top"><div class="wrap bar"><a class="brand" href="index.html">&#128674; Cruise<span>Booking</span></a><button class="burger" aria-label="Menu">&#9776;</button><nav class="links"><a href="index.html">Home</a><a href="search.html">Search Cruises</a><a href="overview.html">Cruise Overview</a><a href="cabins.html">Cabin Selection</a><a href="themed.html">Themed Holidays</a><a href="help.html">Help Center</a><div class="dd"><button>More &#9662;</button><div class="dd-menu"><a href="dashboard.html">Dashboard</a><a href="itinerary.html" class="on">Itinerary Planner</a><a href="activity.html">Activity Selection</a><a href="food.html">Food Options</a><a href="review.html">Reviews</a><a href="rating.html">Cruise Rating</a><a href="payment.html">Payment</a><a href="contact.html">Contact Us</a></div></div><a class="btn ghost" href="login.html">Login</a><a class="btn" href="register.html">Register</a></nav></div></header>
+<main>
+<section class="hero sm"><img src="images/goa.svg" alt=""><div class="wrap"><h1>Plan every day at sea</h1><p>Build a day-by-day schedule of ports, activities and meals.</p></div></section><div class="wrap page">
+<h2>Itinerary Planner</h2>
+<p>Plan your day-by-day schedule for the duration of your cruise.</p>
+
+<table border="1" cellpadding="5">
+    <tr>
+        <th>Day</th>
+        <th>Port / Location</th>
+        <th>Planned Activity</th>
+        <th>Meal Plan</th>
+    </tr>
+    <tr>
+        <td>Day 1</td>
+        <td>Embarkation - Mumbai</td>
+        <td>Welcome Party</td>
+        <td>Dinner Buffet</td>
+    </tr>
+    <tr>
+        <td>Day 2</td>
+        <td>At Sea</td>
+        <td>Pool Games</td>
+        <td>All Meals Onboard</td>
+    </tr>
+    <tr>
+        <td>Day 3</td>
+        <td>Goa</td>
+        <td>Beach Excursion</td>
+        <td>Lunch Onshore</td>
+    </tr>
+    <tr>
+        <td>Day 4</td>
+        <td>At Sea</td>
+        <td>Spa & Relaxation</td>
+        <td>All Meals Onboard</td>
+    </tr>
+    <tr>
+        <td>Day 5</td>
+        <td>Disembarkation - Mumbai</td>
+        <td>Farewell Breakfast</td>
+        <td>Breakfast Only</td>
+    </tr>
+</table>
+<br>
+<form>
+    <label>Add Activity to Day:</label>
+    <select name="day">
+        <option>Day 1</option>
+        <option>Day 2</option>
+        <option>Day 3</option>
+        <option>Day 4</option>
+        <option>Day 5</option>
+    </select>
+    <input type="text" name="activity" placeholder="Activity Name">
+    <input type="submit" value="Add to Itinerary">
+</form>
+</div>
+</main>
+<footer><div class="wrap"><div class="fcols">
+<div><h4>Cruise Booking System</h4><p>Search, plan and book cruise holidays from Mumbai, Goa, Kochi and Chennai to the Arabian Sea, the Caribbean and the Mediterranean.</p></div>
+<div><h4>Explore</h4><a href="search.html">Search Cruises</a><a href="themed.html">Themed Holidays</a><a href="cabins.html">Cabins</a><a href="food.html">Food Options</a></div>
+<div><h4>Support</h4><a href="help.html">Help Center</a><a href="review.html">Reviews</a><a href="payment.html">Payment</a><a href="login.html#agent">Agent Login</a></div>
+<div><h4>Contact</h4><p>support@cruisebooking.com</p><p>+91-9876543210</p><p>Marine Drive, Mumbai, India</p></div>
+</div><div class="legal">Cruise Booking System | Group 3 Mini Project</div></div></footer>
+<script src="main.js"></script>
+</body>
+</html>

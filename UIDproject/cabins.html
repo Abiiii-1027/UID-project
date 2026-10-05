@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cruise Booking System - Cabin Selection</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Outfit:wght@400;600&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top"><div class="wrap bar"><a class="brand" href="index.html">&#128674; Cruise<span>Booking</span></a><button class="burger" aria-label="Menu">&#9776;</button><nav class="links"><a href="index.html">Home</a><a href="search.html">Search Cruises</a><a href="overview.html">Cruise Overview</a><a href="cabins.html" class="on">Cabin Selection</a><a href="themed.html">Themed Holidays</a><a href="help.html">Help Center</a><div class="dd"><button>More &#9662;</button><div class="dd-menu"><a href="dashboard.html">Dashboard</a><a href="itinerary.html">Itinerary Planner</a><a href="activity.html">Activity Selection</a><a href="food.html">Food Options</a><a href="review.html">Reviews</a><a href="rating.html">Cruise Rating</a><a href="payment.html">Payment</a><a href="contact.html">Contact Us</a></div></div><a class="btn ghost" href="login.html">Login</a><a class="btn" href="register.html">Register</a></nav></div></header>
+<main>
+<section class="hero sm"><img src="images/cabin.svg" alt=""><div class="wrap"><h1>Choose your cabin</h1><p>From cosy interiors to suites with a private balcony.</p></div></section><div class="wrap page">
+<h2>Cabin Selection</h2>
+<table border="1" cellpadding="5">
+    <tr>
+        <th>Cabin Type</th>
+        <th>Description</th>
+        <th>Price (per person)</th>
+        <th>Select</th>
+    </tr>
+    <tr>
+        <td>Interior</td>
+        <td>Compact cabin with no window, budget friendly</td>
+        <td>Rs. 15,000</td>
+        <td><input type="radio" name="cabin"></td>
+    </tr>
+    <tr>
+        <td>Ocean View</td>
+        <td>Cabin with a window overlooking the sea</td>
+        <td>Rs. 22,000</td>
+        <td><input type="radio" name="cabin"></td>
+    </tr>
+    <tr>
+        <td>Balcony</td>
+        <td>Private balcony with outdoor seating</td>
+        <td>Rs. 30,000</td>
+        <td><input type="radio" name="cabin"></td>
+    </tr>
+    <tr>
+        <td>Suite</td>
+        <td>Spacious cabin with premium amenities</td>
+        <td>Rs. 45,000</td>
+        <td><input type="radio" name="cabin"></td>
+    </tr>
+</table>
+<br>
+<form>
+    <label>Number of Guests:</label>
+    <select name="guests">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+    </select><br><br>
+    <input type="submit" value="Confirm Cabin">
+</form>
+<h3>In every cabin</h3><div class="grid"><div class="feat"><i>&#128716;</i><h3>Comfortable beds</h3><p>Twin or double, with fresh linen daily.</p></div><div class="feat"><i>&#128703;</i><h3>Private bathroom</h3><p>Shower, toiletries and towels provided.</p></div><div class="feat"><i>&#128250;</i><h3>Entertainment</h3><p>TV with ship channels and movies.</p></div><div class="feat"><i>&#129489;</i><h3>Cabin steward</h3><p>Housekeeping twice a day, and room service.</p></div></div></div>
+</main>
+<footer><div class="wrap"><div class="fcols">
+<div><h4>Cruise Booking System</h4><p>Search, plan and book cruise holidays from Mumbai, Goa, Kochi and Chennai to the Arabian Sea, the Caribbean and the Mediterranean.</p></div>
+<div><h4>Explore</h4><a href="search.html">Search Cruises</a><a href="themed.html">Themed Holidays</a><a href="cabins.html">Cabins</a><a href="food.html">Food Options</a></div>
+<div><h4>Support</h4><a href="help.html">Help Center</a><a href="review.html">Reviews</a><a href="payment.html">Payment</a><a href="login.html#agent">Agent Login</a></div>
+<div><h4>Contact</h4><p>support@cruisebooking.com</p><p>+91-9876543210</p><p>Marine Drive, Mumbai, India</p></div>
+</div><div class="legal">Cruise Booking System | Group 3 Mini Project</div></div></footer>
+<script src="main.js"></script>
+</body>
+</html>

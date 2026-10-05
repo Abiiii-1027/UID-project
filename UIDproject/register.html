@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cruise Booking System - Register</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Outfit:wght@400;600&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top"><div class="wrap bar"><a class="brand" href="index.html">&#128674; Cruise<span>Booking</span></a><button class="burger" aria-label="Menu">&#9776;</button><nav class="links"><a href="index.html">Home</a><a href="search.html">Search Cruises</a><a href="overview.html">Cruise Overview</a><a href="cabins.html">Cabin Selection</a><a href="themed.html">Themed Holidays</a><a href="help.html">Help Center</a><div class="dd"><button>More &#9662;</button><div class="dd-menu"><a href="dashboard.html">Dashboard</a><a href="itinerary.html">Itinerary Planner</a><a href="activity.html">Activity Selection</a><a href="food.html">Food Options</a><a href="review.html">Reviews</a><a href="rating.html">Cruise Rating</a><a href="payment.html">Payment</a><a href="contact.html">Contact Us</a></div></div><a class="btn ghost" href="login.html">Login</a><a class="btn" href="register.html">Register</a></nav></div></header>
+<main>
+<section class="hero sm"><img src="images/pool.svg" alt=""><div class="wrap"><h1>Create your account</h1><p>Verify your ID once and board faster on every cruise.</p></div></section><div class="wrap page">
+<h2>Customer registration</h2>
+<div class="note"><b>Why we ask for ID.</b> Cruise lines must match every passenger to a valid photo ID before boarding. Upload it once and we will reuse it for every booking.</div>
+<form class="wide" action="login.html">
+<fieldset><legend>Personal details</legend><div class="cols">
+<div class="f"><label>Full name (as on ID)</label><input type="text" name="fullname" required></div>
+<div class="f"><label>Email</label><input type="email" name="email" required></div>
+<div class="f"><label>Phone number</label><input type="tel" name="phone" required></div>
+<div class="f"><label>Date of birth</label><input type="date" name="dob" required></div></div>
+<div class="f"><label>Gender</label><input type="radio" name="gender" value="male">Male <input type="radio" name="gender" value="female">Female <input type="radio" name="gender" value="other">Other</div></fieldset>
+<fieldset><legend>Proof of identity</legend><div class="cols">
+<div class="f"><label>ID type</label><select name="id_type"><option>Aadhaar Card</option><option>Passport</option><option>Voter ID</option><option>Driving Licence</option><option>PAN Card</option></select></div>
+<div class="f"><label>ID number</label><input type="text" name="id_number" required></div>
+<div class="f"><label>Upload ID - front</label><input type="file" name="id_front" accept="image/*,.pdf" required></div>
+<div class="f"><label>Upload ID - back</label><input type="file" name="id_back" accept="image/*,.pdf"></div>
+<div class="f"><label>Passport-size photo</label><input type="file" name="photo" accept="image/*" required></div>
+<div class="f"><label>Nationality</label><input type="text" name="nationality" value="Indian"></div></div>
+<p>Accepted: JPG, PNG or PDF. Passport is required for international sailings.</p></fieldset>
+<fieldset><legend>Address and emergency contact</legend><div class="f"><label>Residential address</label><textarea rows="3" name="address"></textarea></div><div class="cols">
+<div class="f"><label>Emergency contact name</label><input type="text" name="em_name"></div>
+<div class="f"><label>Emergency contact phone</label><input type="tel" name="em_phone"></div></div></fieldset>
+<fieldset><legend>Create password</legend><div class="cols">
+<div class="f"><label>Password</label><input type="password" name="password" required></div>
+<div class="f"><label>Confirm password</label><input type="password" name="confirm_password" required></div></div>
+<div class="f"><label><input type="checkbox" name="terms" required>I agree to the Terms and Conditions</label></div></fieldset>
+<input type="submit" value="Register">
+</form>
+<p>Already have an account? <a href="login.html">Login here</a>. Travel agent? <a href="login.html#agent">Use the agent login</a>.</p>
+</div>
+</main>
+<footer><div class="wrap"><div class="fcols">
+<div><h4>Cruise Booking System</h4><p>Search, plan and book cruise holidays from Mumbai, Goa, Kochi and Chennai to the Arabian Sea, the Caribbean and the Mediterranean.</p></div>
+<div><h4>Explore</h4><a href="search.html">Search Cruises</a><a href="themed.html">Themed Holidays</a><a href="cabins.html">Cabins</a><a href="food.html">Food Options</a></div>
+<div><h4>Support</h4><a href="help.html">Help Center</a><a href="review.html">Reviews</a><a href="payment.html">Payment</a><a href="login.html#agent">Agent Login</a></div>
+<div><h4>Contact</h4><p>support@cruisebooking.com</p><p>+91-9876543210</p><p>Marine Drive, Mumbai, India</p></div>
+</div><div class="legal">Cruise Booking System | Group 3 Mini Project</div></div></footer>
+<script src="main.js"></script>
+</body>
+</html>

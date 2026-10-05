@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cruise Booking System - Search Cruises</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Outfit:wght@400;600&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top"><div class="wrap bar"><a class="brand" href="index.html">&#128674; Cruise<span>Booking</span></a><button class="burger" aria-label="Menu">&#9776;</button><nav class="links"><a href="index.html">Home</a><a href="search.html" class="on">Search Cruises</a><a href="overview.html">Cruise Overview</a><a href="cabins.html">Cabin Selection</a><a href="themed.html">Themed Holidays</a><a href="help.html">Help Center</a><div class="dd"><button>More &#9662;</button><div class="dd-menu"><a href="dashboard.html">Dashboard</a><a href="itinerary.html">Itinerary Planner</a><a href="activity.html">Activity Selection</a><a href="food.html">Food Options</a><a href="review.html">Reviews</a><a href="rating.html">Cruise Rating</a><a href="payment.html">Payment</a><a href="contact.html">Contact Us</a></div></div><a class="btn ghost" href="login.html">Login</a><a class="btn" href="register.html">Register</a></nav></div></header>
+<main>
+<section class="hero sm"><img src="images/caribbean.svg" alt=""><div class="wrap"><h1>Find your cruise</h1><p>Filter by destination, duration, budget and cruise line.</p></div></section><div class="wrap page">
+<h2>Destination Searching / Filtering</h2>
+<form>
+    <label>Destination:</label>
+    <input type="text" name="destination"><br><br>
+
+    <label>Departure City:</label>
+    <select name="departure_city">
+        <option>Mumbai</option>
+        <option>Chennai</option>
+        <option>Kochi</option>
+        <option>Goa</option>
+    </select><br><br>
+
+    <label>Duration:</label>
+    <select name="duration">
+        <option>2 Days</option>
+        <option>3 Days</option>
+        <option>5 Days</option>
+        <option>7 Days</option>
+        <option>10+ Days</option>
+    </select><br><br>
+
+    <label>Price Range:</label>
+    <select name="price">
+        <option>Below 20,000</option>
+        <option>20,000 - 50,000</option>
+        <option>50,000 - 1,00,000</option>
+        <option>Above 1,00,000</option>
+    </select><br><br>
+
+    <label>Cruise Line:</label>
+    <select name="cruiseline">
+        <option>Cordelia Cruises</option>
+        <option>Disney Cruise Line</option>
+    </select><br><br>
+
+    <label>Sort By:</label>
+    <select name="sort">
+        <option>Price - Low to High</option>
+        <option>Price - High to Low</option>
+        <option>Rating</option>
+        <option>Duration</option>
+    </select><br><br>
+
+    <input type="submit" value="Search">
+    <input type="reset" value="Clear Filters">
+</form>
+
+<h3>Search Results (Sample)</h3>
+<table border="1" cellpadding="5">
+    <tr>
+        <th>Cruise Name</th>
+        <th>Destination</th>
+        <th>Duration</th>
+        <th>Price</th>
+        <th>Rating</th>
+        <th>Action</th>
+    </tr>
+    <tr>
+        <td>Empress Cruise</td>
+        <td>Goa</td>
+        <td>3 Days</td>
+        <td>Rs. 18,000</td>
+        <td>4.3</td>
+        <td><a href="overview.html">View</a></td>
+    </tr>
+    <tr>
+        <td>Disney Wonder</td>
+        <td>Caribbean</td>
+        <td>7 Days</td>
+        <td>Rs. 60,000</td>
+        <td>4.7</td>
+        <td><a href="overview.html">View</a></td>
+    </tr>
+    <tr>
+        <td>Empress Explorer</td>
+        <td>Lakshadweep</td>
+        <td>5 Days</td>
+        <td>Rs. 35,000</td>
+        <td>4.1</td>
+        <td><a href="overview.html">View</a></td>
+    </tr>
+    <tr>
+        <td>Disney Magic</td>
+        <td>Mediterranean</td>
+        <td>10 Days</td>
+        <td>Rs. 1,20,000</td>
+        <td>4.8</td>
+        <td><a href="overview.html">View</a></td>
+    </tr>
+</table>
+</div>
+</main>
+<footer><div class="wrap"><div class="fcols">
+<div><h4>Cruise Booking System</h4><p>Search, plan and book cruise holidays from Mumbai, Goa, Kochi and Chennai to the Arabian Sea, the Caribbean and the Mediterranean.</p></div>
+<div><h4>Explore</h4><a href="search.html">Search Cruises</a><a href="themed.html">Themed Holidays</a><a href="cabins.html">Cabins</a><a href="food.html">Food Options</a></div>
+<div><h4>Support</h4><a href="help.html">Help Center</a><a href="review.html">Reviews</a><a href="payment.html">Payment</a><a href="login.html#agent">Agent Login</a></div>
+<div><h4>Contact</h4><p>support@cruisebooking.com</p><p>+91-9876543210</p><p>Marine Drive, Mumbai, India</p></div>
+</div><div class="legal">Cruise Booking System | Group 3 Mini Project</div></div></footer>
+<script src="main.js"></script>
+</body>
+</html>
